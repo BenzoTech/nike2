@@ -9,9 +9,14 @@ import {
   Subscribe,
 } from "./sections";
 import Nav from "./components/Nav";
+// import CustomCursor from './components/CustomCursor';
 
-const App = () => {
+const App = ({ Component, pageProps}) => {
   return (
+    // <>
+    //   <CustomCursor />
+    //   <Component {...pageProps} />
+    // </>
     <main className="relative">
       <Nav />
       <section className="xl:padding-l wide:padding-r padding-b">
